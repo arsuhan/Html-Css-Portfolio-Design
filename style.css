@@ -295,6 +295,7 @@ a {
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
+    margin-top: -24px;
   }
 
   .home-img .img-box {
@@ -309,6 +310,7 @@ a {
 
   .profile-info h1 {
     font-size: 32px;
+    margin-top: -20px;
   }
 
   .profile-info h2 {
@@ -386,10 +388,11 @@ a {
 }
 
 .about-text p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   color: #c8c8c8;
   margin-bottom: 30px;
+  max-width: 90%;
 }
 
 button {
@@ -422,12 +425,31 @@ button:hover {
 
   .about-text {
     max-width: 120%;
+    margin-top: -30px;
   }
 }
 
 @media (max-width: 768px) {
-    .about-container {
-      margin-top: -40px;
+    .about-img img {
+      margin-top: 100px;
+      margin-left: 20px;
+}
+}
+
+@media (max-width: 400px) {
+    .about-img img {
+      margin-top: 100px;
+      margin-left: 1px;
+      
+}
+.about-text p {
+    font-size: 14px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    /* text-align: left; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 }
 
