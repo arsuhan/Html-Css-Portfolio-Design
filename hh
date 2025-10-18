@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <!-- <nav class="navbar">
+    <nav class="navbar">
         <a href="#" class="logo">Portfolio.</a>
         <ul>
             <li class="active"><a href="#">Home</a></li>
@@ -17,20 +17,20 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav> -->
+    </nav>
 
-    <!-- <div class="bars-animation">
+    <div class="bars-animation">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
-    </div> -->
+    </div>
 
     <!-- Hero -->
 
-    <!-- <div id="#" class="home">
+    <div id="#" class="home">
         <div class="home-info">
             <h1>Aminur Rahman</h1>
             <h2>I'm a <span>Frontend Developer</span></h2>
@@ -54,67 +54,70 @@
             </div>
         </div>
 
-    </div> -->
+    </div>
 
     <!-- About -->
 
-  <section class="about">
-    <div class="about-container">
-      <div class="about-img">
-        <img src="images/suhan.png" alt="Aminur Rahman Suhan">
-      </div>
-      <div class="about-text">
-        <h2>About Me</h2>
-        <h3>Developer <span>& Designer</span></h3>
-        <p>
-          Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet,
-          and I’m currently studying at Habiganj Polytechnic Institute. I have a deep passion for
-          technology and programming, and I’m constantly striving to expand my knowledge in the
-          field of web development. I enjoy building beautiful, responsive user interfaces and
-          exploring how things work behind the scenes.
-        </p>
-        <a href="#" class="btn">Let' Talk</a>
-      </div>
+    <div id="about" class="about">
+        <div class="main">
+            <img src="./images/suhan1.png" alt="about">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Designer</span></h5>
+                <p>Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet, and I’m currently studying at Habiganj Polytechnic Institute. I have a deep passion for technology and programming, and I’m constantly striving to expand my knowledge in the field of web development. I enjoy building beautiful, responsive user interfaces and exploring how things work behind the scenes.</p>
+                <button type="button">Let' Talk</button>
+            </div>
+        </div>
+
     </div>
-  </section>
 
     <!-- Services -->
 
-  <section class="services">
-    <h2 class="heading">Our Services</h2>
+    <div id="services" class="service bg-[url('/images/bg.png')]">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
 
-    <div class="service-container">
-      <div class="service-box">
-        <i class='bx bx-bar-chart-alt'></i>
-        <h3>Web Development</h3>
-        <p>
-          Modern, responsive, and optimized websites built with the latest technologies.
-          Updates and bug running smoothly.
-        </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
+        <div class="box">
+        <div class="card">
+            <i class='bx bx-bar-chart-square'></i>
+            <h5>Web Development</h5>
+            <div class="pra">
+                <p>Modern, responsive, and optimized websites built with the latest technologies. updates and bug running smoothly.</p>
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                 </p>
+            </div>
+        </div>
 
-      <div class="service-box">
-        <i class='bx bx-user'></i>
-        <h3>Frontend Design</h3>
-        <p>
-          Beautiful UI designs crafted with attention to detail using Tailwind CSS & Vue.js.
-          Updates and bug running smoothly.
-        </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
+        <!-- 1 -->
 
-      <div class="service-box">
-        <i class='bx bx-bell'></i>
-        <h3>Backend Integration</h3>
-        <p>
-          Secure and scalable APIs powered by Node.js & MongoDB. Continuous updates and bug
-          running smoothly.
-        </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
+        <div class="card">
+            <i class='bx bxs-user'></i>
+            <h5>Frontend Design</h5>
+            <div class="pra">
+                <p>Beautiful UI designs crafted with attention to detail using Tailwind CSS & Vue.js. updates and bug running smoothly.</p>
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                 </p>
+            </div>
+        </div>
+
+        <!-- 2 -->
+
+        <div class="card">
+            <i class='bx bx-bell'></i>
+            <h5>Backend Integration</h5>
+            <div class="pra">
+                <p>Secure and scalable APIs powered by Node.js & MongoDB Continuous updates updates and bug running smoothly.</p>
+                 <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                 </p>
+            </div>
+        </div>
+
     </div>
-  </section>
+    </div>
 
     <!-- contact me -->
 
@@ -146,7 +149,7 @@
             <button type="submit" class="btn-send">Send Message</button>
         </form>
     </div>
-    </section>
+</section>
 
     <!-- footer -->
 
